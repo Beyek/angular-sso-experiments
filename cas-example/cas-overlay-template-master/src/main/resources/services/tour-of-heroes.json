@@ -1,9 +1,9 @@
 {
   "@class" : "org.apereo.cas.support.oauth.services.OAuthRegisteredService",
-  "clientId": "tourOfHeroes",
+  "clientId": "tour-of-heroes",
   "clientSecret": "7777",
   "bypassApprovalPrompt": false,
-  "serviceId" : "^(https|http)://localhost**",
+  "serviceId" : "^(https?|imaps?):.*",
   "name" : "HTTPS and IMAPS",
   "id" : 20000001,
   "evaluationOrder" : 1
